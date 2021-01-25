@@ -8,7 +8,7 @@ int main()
   char ltr = 65;
   
   //output statement
-  cout << ltr
+  cout << ltr;
 
   //set ltr to 'r'
   ltr = 114;
