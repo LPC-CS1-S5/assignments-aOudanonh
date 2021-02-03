@@ -26,6 +26,18 @@ int main()
        << fixed
        << showpoint
 
+       << "Your first number is "
+       << num1
+       << "\n"
+
+       << "Your second number is "
+       << num2
+       << "\n"
+
+       <<"Your third number is "
+       << num3
+       <<"\n"
+
        << "The sum of all values is "
        << sum
        <<"\n"
