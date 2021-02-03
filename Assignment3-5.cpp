@@ -33,18 +33,6 @@ int main()
        << "The average is "
        << avg
        << "\n";
-  
-
-  // test random numbers
-  cout << num1
-       << "\n"
-
-       << num2
-       << "\n"
-
-       << num3
-       << "\n";
-
 
   return 0;
 }
