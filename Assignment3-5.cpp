@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <cstdlib>
 #include <ctime>
 
@@ -10,13 +11,40 @@ int main()
   srand(time(0));
 
   // declare and initialize variables
-  int num1,
-      num2,
-      num3,
-      sum,
-      avg;
+  float num1 = rand() % 100,
+        num2 = rand() % 100,
+        num3 = rand() % 100,
+        sum,
+        avg;
+
+  // calculate
+  sum = num1 + num2 + num3;
+  avg = sum / 3;
+
+  // format and output
+  cout << setprecision(2)
+       << fixed
+       << showpoint
+
+       << "The sum of all values is "
+       << sum
+       <<"\n"
+
+       << "The average is "
+       << avg
+       << "\n";
   
-  
+
+  // test random numbers
+  cout << num1
+       << "\n"
+
+       << num2
+       << "\n"
+
+       << num3
+       << "\n";
+
 
   return 0;
 }
